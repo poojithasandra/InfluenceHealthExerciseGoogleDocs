@@ -80,10 +80,10 @@ documents folder
       
 Built With:
 
-Maven                           - Dependency Management
-Selenium Webdriver with Java    - Test scripts writing
-Page Factory                    -  Objects repository
-TestNG                          - For running testcases and generating reports
+Maven                           - Dependency Management,
+Selenium Webdriver with Java    - Test scripts writing,
+Page Factory                    -  Objects repository,
+TestNG                          - For running testcases and generating reports,
       
       
    As of now I have used Selenium with Test NG and POM,   Cumcumber BDD framework can also be used for this project
