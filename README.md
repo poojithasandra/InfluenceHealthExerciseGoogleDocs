@@ -18,7 +18,7 @@ Prerequisites : Eclipse IDE and Maven
                ---> Installation will take some time and it may be asked for restart the eclipse.
                    After the restart, you can create Maven projects.
                    
-Now clone the project
+Now clone the project from this repository
 
 POM.xml   :
 
@@ -69,11 +69,11 @@ POM (page object model) Approach:
       Functional.xml        --- for all Requirements
       Regression.TestNG.xml -- To execute selected testcases
       
- screenshots folder: Any screenshots related to project
+ screenshots folder: Any screenshots related to project can be added here
  
       Screenshots of TestNG results are attached here
       
-documents folder   : Any documents related to project 
+documents folder   : Any documents related to project can be added here
 
       Testcases excel file and requirements document are attached here
       
