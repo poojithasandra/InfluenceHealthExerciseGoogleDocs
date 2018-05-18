@@ -1,7 +1,7 @@
 # InfluenceHealthExerciseGoogleDocs
-GoogleDocsPageQA
+GoogleDocsPageQA - InfluenceHealthExerciseGoogleDocs
 
-Project sc : Googledocs Web application Automation Testing
+Project : Googledocs Web application Automation Testing
 
 Approach :
 
