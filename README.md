@@ -6,7 +6,7 @@ Project Name : GoogleDocs
 
 Approach :
 
-Page Object Model Pattern with Page Factory +Selenium webdriver with Java + Data driven + TestNG tests
+ Page Object Model Pattern with Page Factory +Selenium webdriver with Java + Data driven + TestNG tests
 
  
 Prerequisites : Eclipse IDE and Maven
@@ -23,12 +23,12 @@ Now clone the Maven project from this repository
 
 POM.xml   :
 
-contains all dependencies required for the project --> Selenium Webdriver 2.44, TestNG 6.9.9, Apache POI for EXcel
+    contains all dependencies required for the project --> Selenium Webdriver 2.44, TestNG 6.9.9, Apache POI for EXcel
 
 Running/Executing the Test cases:
 
-Select Functional.xml Run as TestNGsuite  (located under 'resources' source folder) 
-  Results can be seen in test-output --> index.xml 
+    Select  Functional.xml , Run as TestNGsuite  (located under 'resources' source folder), 
+    Results can be seen in test-output --> index.html 
   
 POM (page object model) Approach:
 
@@ -64,6 +64,8 @@ POM (page object model) Approach:
       GoogledocsFirstPageTest.java
       GoogleCloudPageTest.java
       
+      First trail testcases are present in Trailtestcases.java  class
+      
  resoucers folder: Any resources can be added in this folder
  
       Test cases to be run are grouped here in xml files
@@ -83,14 +85,16 @@ documents folder   : Any documents related to project can be added here
       
 Built With:
 
-Maven                           - Dependency Management,
-Selenium Webdriver with Java    - Test scripts writing,
-Page Factory                    -  Objects repository,
-TestNG                          - For running testcases and generating reports,
+     Maven                           - Dependency Management,
+     Selenium Webdriver with Java    - Test scripts writing,
+     Page Factory                    -  Objects repository,
+     TestNG                          - For running testcases and generating reports,
       
       
    Note : In this project I have used Selenium with Test NG and POM.
            Cumcumber BDD framework with Gherkin language can also be used for this project
+ 
+ 
      
       
 
