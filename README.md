@@ -72,16 +72,16 @@ POM (page object model) Approach:
       Functional.xml        --- for all Requirements
       Regression.TestNG.xml -- To execute selected testcases
       
- screenshots folder: Any screenshots related to project can be added here
+ screenshots folder: Any screenshots related to project can be added  to this folder
  
       Screenshots of TestNG results are attached here
       
-documents folder   : Any documents related to project can be added here
+documents folder   : Any documents related to project can be added  to this folder
 
       Testcases excel file and requirements document are attached here
       
- test-output
-      output report folder
+ test-output :
+      All reports of results along with emailable formats are generated in this folder
       
 Built With:
 
