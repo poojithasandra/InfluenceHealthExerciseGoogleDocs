@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-18T05:18:28Z" name="TestSuite" finished-at="2018-05-18T05:20:08Z" duration-ms="100049">
+    <groups>
+    </groups>
+    <test started-at="2018-05-18T05:18:28Z" name="Googledocs test application Functional test " finished-at="2018-05-18T05:20:08Z" duration-ms="100049">
+      <class name="com.googledocs.qa.testcases.GoogleCloudPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:18:58Z" name="setUp" finished-at="2018-05-18T00:19:18Z" duration-ms="20379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHear3TextTest()[pri:1, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:18Z" name="verifyHear3TextTest" finished-at="2018-05-18T00:19:18Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHear3TextTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:18Z" name="closeBrowser" finished-at="2018-05-18T00:19:21Z" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:21Z" name="setUp" finished-at="2018-05-18T00:19:41Z" duration-ms="20494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyclickOnGetUpdatesButton()[pri:2, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:41Z" name="verifyclickOnGetUpdatesButton" finished-at="2018-05-18T00:19:41Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickOnGetUpdatesButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:41Z" name="closeBrowser" finished-at="2018-05-18T00:19:44Z" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:19:44Z" name="setUp" finished-at="2018-05-18T00:20:05Z" duration-ms="21034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUpdatesforUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:20:05Z" name="getUpdatesforUserTest" data-provider="getgoogledocsUsertestData" finished-at="2018-05-18T00:20:06Z" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[myname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lmns]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[myname@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpdatesforUserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.googledocs.qa.testcases.GoogleCloudPageTest@623a8092]" started-at="2018-05-18T00:20:06Z" name="closeBrowser" finished-at="2018-05-18T00:20:08Z" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.googledocs.qa.testcases.GoogleCloudPageTest -->
+      <class name="com.googledocs.qa.testcases.GoogledocsFirstPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:28Z" name="setUp" finished-at="2018-05-18T00:18:41Z" duration-ms="13225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTextUnderEventsTest()[pri:1, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:41Z" name="verifyTextUnderEventsTest" finished-at="2018-05-18T00:18:41Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextUnderEventsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:41Z" name="closeBrowser" finished-at="2018-05-18T00:18:42Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:42Z" name="setUp" finished-at="2018-05-18T00:18:54Z" duration-ms="12122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyclickOnGoogleCloudLinkTest()[pri:2, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:54Z" name="verifyclickOnGoogleCloudLinkTest" finished-at="2018-05-18T00:18:58Z" duration-ms="3888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickOnGoogleCloudLinkTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.googledocs.qa.testcases.GoogledocsFirstPageTest@548e6d58]" started-at="2018-05-18T00:18:58Z" name="closeBrowser" finished-at="2018-05-18T00:18:58Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.googledocs.qa.testcases.GoogledocsFirstPageTest -->
+    </test> <!-- Googledocs test application Functional test  -->
+  </suite> <!-- TestSuite -->
+</testng-results>
