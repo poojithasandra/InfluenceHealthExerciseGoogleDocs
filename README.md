@@ -5,7 +5,7 @@ Project : Googledocs Web application Automation Testing
 
 Approach :
 
-Page Object Model Pattern with Page Factory in Selenium + Data driven + TestNG tests
+Page Object Model Pattern with Page Factory +Selenium webdriver with Java + Data driven + TestNG tests
 
  
 Prerequisites : Eclipse IDE and MAven
