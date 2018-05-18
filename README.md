@@ -2,6 +2,7 @@
 GoogleDocsPageQA - InfluenceHealthExerciseGoogleDocs
 
 Project : Googledocs Web application Automation Testing
+Project Name : GoogleDocs
 
 Approach :
 
@@ -18,7 +19,7 @@ Prerequisites : Eclipse IDE and Maven
                ---> Installation will take some time and it may be asked for restart the eclipse.
                    After the restart, you can create Maven projects.
                    
-Now clone the project from this repository
+Now clone the Maven project from this repository
 
 POM.xml   :
 
