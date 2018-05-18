@@ -8,7 +8,7 @@ Approach :
 Page Object Model Pattern with Page Factory +Selenium webdriver with Java + Data driven + TestNG tests
 
  
-Prerequisites : Eclipse IDE and MAven
+Prerequisites : Eclipse IDE and Maven
 
                 Itegrate Maven with Eclipse IDE
                Eclipse--> Help--> Install New software
@@ -22,12 +22,12 @@ Now clone the project
 
 POM.xml   :
 
-contains all dependencies required for the project --> Selenium Webdriver 2.44, TestNG 6.9.9, Apache POI foe EXcel
+contains all dependencies required for the project --> Selenium Webdriver 2.44, TestNG 6.9.9, Apache POI for EXcel
 
-Running the Test cases:
+Running/Executing the Test cases:
 
 Select Functional.xml Run as TestNGsuite  (located under 'resources' source folder) 
-  Results can be seen test-output --> index.xml 
+  Results can be seen in test-output --> index.xml 
   
 POM (page object model) Approach:
 
@@ -37,9 +37,9 @@ POM (page object model) Approach:
      com.googledocs.qa.pages  --Package
      Created Page Objects representing pages of a web application 
      created methods for these Page Objects in methods that represent actions  to perform within the pages that they represent 
-     For the current Project two pages have been considered
-      GoogledocsFirstPage.java
-      GoogleCloudPage.java
+     For the current Project two pages have been considered according to my choice. 
+      GoogledocsFirstPage.java  ---> for first page
+      GoogleCloudPage.java      ----> devsite page
       
      com.googledocs.qa.base
        TestBase.java :  Parent class for all classes -- initialize web driver, initialize properties etc
@@ -51,27 +51,29 @@ POM (page object model) Approach:
         testada excel file is stored here for data driven testing. This file can be read using Aache POI
         
      com.googledocs.qa.util
-        TestUtil.java : This calss contails all utilities like screenshots, common utilities/ generic functions are defined here
+        TestUtil.java : This class contains all utilities like screenshots, common utilities/ generic functions are defined here
         
   src/test/java
   
      Created tests that perform the actions mentioned in Pages classes in the required order 
      And performed checks that make up the test scenario 
      For the current Project the tests are created in com.googledocs.qa.testcases package
+     
+     com.googledocs.qa.testcases  :
       GoogledocsFirstPageTest.java
       GoogleCloudPageTest.java
       
- resoucers folder:
+ resoucers folder: Any resources can be added in this folder
  
       Test cases to be run are grouped here in xml files
-      Functional.xml
-      Regression.TestNG.xml
+      Functional.xml        --- for all Requirements
+      Regression.TestNG.xml -- To execute selected testcases
       
- screenshots folder:
+ screenshots folder: Any screenshots related to project
  
       Screenshots of TestNG results are attached here
       
-documents folder
+documents folder   : Any documents related to project 
 
       Testcases excel file and requirements document are attached here
       
@@ -86,7 +88,8 @@ Page Factory                    -  Objects repository,
 TestNG                          - For running testcases and generating reports,
       
       
-   As of now I have used Selenium with Test NG and POM,   Cumcumber BDD framework can also be used for this project
+   Note : In this project I have used Selenium with Test NG and POM.
+           Cumcumber BDD framework with Gherkin language can also be used for this project
      
       
 
